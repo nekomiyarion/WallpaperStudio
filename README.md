@@ -1,25 +1,31 @@
-## ダウンロードと実行方法 (Download & Run)
+## ダウンロード (Download)
 
-1. **[こちらをクリックして最新版をダウンロード](https://github.com/nekomiyarion/WallpaperStudio/releases/download/v4.0/WallpaperStudio-main.zip)** してください。
-2. ダウンロードした ZIP ファイルをすべて展開（解凍）します。
-3. フォルダ内にある **`WallpaperStudio.exe`** をダブルクリックして起動します。
-   - ※ 初回起動時に、同じ場所に `movies` フォルダと `background` フォルダが自動生成されます。
+用途に合わせて以下のいずれかをダウンロードしてください。
 
-## 動画と背景画像の追加方法
+### 🚀 推奨：インストーラー版（簡単に使い始めたい方）
+Windowsにインストールして、通常のアプリとして使用できます。
+* **[setup_WallpaperStudio_v4.0.exe をダウンロード](https://github.com/nekomiyarion/WallpaperStudio/releases/download/v4.0_Installer/setup_WallpaperStudio_v4.0.exe)**
 
-お好みの動画を再生リストに追加するには、以下の手順でファイルを配置してください。
+### 📦 ポータブル版（解凍するだけで使いたい方）
+インストール不要で、USBメモリなどに入れて持ち運ぶことも可能です。
+* **[WallpaperStudio-main.zip をダウンロード](https://github.com/nekomiyarion/WallpaperStudio/releases/download/v4.0/WallpaperStudio-main.zip)**
 
-### 1. フォルダの役割
-* **`movies` フォルダ**: 再生したい**動画本体**（.mp4など）を入れます。
-* **`background` フォルダ**: アプリの選択画面で表示される**背景（プレビュー）画像**を入れます。
+---
 
-### 2. ファイル名のルール（最重要）
-アプリが動画と画像を正しく紐付けるために、**動画ファイルと背景画像のファイル名を必ず同じにしてください。**
+## 初期設定と動画の追加方法
 
-| ファイルの種類 | 保存先フォルダ | 例（ファイル名） |
+### 1. フォルダの自動生成
+アプリを起動すると、実行ファイルと同じ場所（インストーラー版の場合はインストール先フォルダ）に以下の2つのフォルダが自動生成されます。
+* **`movies`**: 再生したい動画（.mp4など）を入れる場所
+* **`background`**: 選択画面で表示される背景画像（.jpg/.png）を入れる場所
+
+### 2. ファイル名のルール
+動画と画像を正しく表示させるために、**ファイル名を必ず統一**させてください。
+
+| 種類 | 保存先 | 例 |
 | :--- | :--- | :--- |
-| 動画ファイル | `movies` | **my_wallpaper**.mp4 |
-| 背景画像 | `background` | **my_wallpaper**.jpg (または png) |
+| 動画 | `movies` | **cool_live**.mp4 |
+| 画像 | `background` | **cool_live**.jpg |
 
-> [!TIP]
-> 名前を揃えることで、アプリのリストに背景画像が表示され、クリックすると対応する動画が流れるようになります。
+> [!NOTE]
+> インストーラー版を使用した場合、フォルダは `C:\Users\(ユーザー名)\AppData\Local\Programs\WallpaperStudio`（またはインストール時に指定した場所）に作成されます。
